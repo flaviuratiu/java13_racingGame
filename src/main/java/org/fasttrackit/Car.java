@@ -1,6 +1,6 @@
 package org.fasttrackit;
 
-// inheritance (is-a relationship)
+// inheritance ("is-a" relationship)
 public class Car extends AutoVehicle {
 
     int doorCount;
