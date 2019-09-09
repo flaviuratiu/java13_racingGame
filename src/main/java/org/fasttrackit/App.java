@@ -10,6 +10,8 @@ public class App {
     public static void main(String[] args) {
         // this is a one-line comment
 
+        AutoVehicle autoVehicle = new AutoVehicle();
+
         Engine engine = new Engine();
         engine.manufacturer = "Renault";
         engine.capacity = 1600;
@@ -29,6 +31,8 @@ public class App {
         System.out.println(car.engine);
 
         car.accelerate(60, 1);
+
+        car.accelerate(90);
 
         Engine engine2 = new Engine();
         engine2.manufacturer = "VW";
