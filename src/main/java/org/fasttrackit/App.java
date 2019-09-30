@@ -9,6 +9,11 @@ public class App {
         Game game = new Game();
         game.start();
 
+//        do {
+//            System.out.println("Repeating something");
+//        } while (true);
+//
+
         // this is a one-line comment
 
 //        AutoVehicle autoVehicle = new AutoVehicle();
