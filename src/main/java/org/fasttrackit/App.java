@@ -6,8 +6,18 @@ package org.fasttrackit;
 public class App {
 
     public static void main(String[] args) throws Exception {
-        Game game = new Game();
-        game.start();
+//        Game game = new Game();
+//        game.start();
+
+        String a = "test";
+        String b = "test";
+
+        String c = new String("test");
+
+        System.out.println(a == b);
+        System.out.println(a == c);
+        System.out.println(a.equals(c));
+
 
 //        do {
 //            System.out.println("Repeating something");
